@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PublishProfile xmlns="http://schemas.microsoft.com/2015/05/fabrictools">
+  <ClusterConnectionParameters ConnectionEndpoint="s-be-ki-brixdev:19000" />
+  <ApplicationParameterFile Path="..\ApplicationParameters\Dev.3Node.xml" />
+  <CopyPackageParameters CompressPackage="true" />
+</PublishProfile>

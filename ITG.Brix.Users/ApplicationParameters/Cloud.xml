@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/BrixEOrderUsers" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="ITG.Brix.Users.API_InstanceCount" Value="-1" />
+    <Parameter Name="ITG.Brix.Users.API_Port" Value="__ApiPort__" />
+    <Parameter Name="ITG.Brix.APPINSIGHTS_INSTRUMENTATIONKEY" Value="__ApplicationInsightsInstrumentationKey__" />
+    <Parameter Name="ASPNETCORE_ENVIRONMENT" Value="__ASPNETCORE_ENVIRONMENT__" />
+    <Parameter Name="DatabaseConnectionString" Value="__DatabaseConnectionString__" />
+    <Parameter Name="RabbitMQEnabled" Value="false" />
+    <Parameter Name="RabbitMQConnectionString" Value="host=localhost" />
+    <Parameter Name="AzureServiceBusEnabled" Value="true" />
+    <Parameter Name="AzureServiceBusConnectionString" Value="__AzureServiceBusConnectionString__" />
+  </Parameters>
+</Application>

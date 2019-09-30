@@ -1,0 +1,16 @@
+﻿<SolutionConfiguration>
+  <Settings>
+    <AllowParallelTestExecution>False</AllowParallelTestExecution>
+    <MetricsExclusionList>
+      <Value>ITG.Brix.Users.IntegrationTests\ITG.Brix.Users.IntegrationTests.csproj</Value>
+      <Value>ITG.Brix.Users.IntegrationTests.Infrastructure\ITG.Brix.Users.IntegrationTests.Infrastructure.csproj</Value>
+      <Value>ITG.Brix.Users.UnitTests.API\ITG.Brix.Users.UnitTests.API.csproj</Value>
+      <Value>ITG.Brix.Users.UnitTests.Application\ITG.Brix.Users.UnitTests.Application.csproj</Value>
+      <Value>ITG.Brix.Users.UnitTests.Domain\ITG.Brix.Users.UnitTests.Domain.csproj</Value>
+      <Value>ITG.Brix.Users.IntegrationTests.Application\ITG.Brix.Users.IntegrationTests.Application.csproj</Value>
+      <Value>ITG.Brix.Users.UnitTests.API.Context\ITG.Brix.Users.UnitTests.API.Context.csproj</Value>
+      <Value>ITG.Brix.Users.UnitTests.Infrastructure\ITG.Brix.Users.UnitTests.Infrastructure.csproj</Value>
+    </MetricsExclusionList>
+    <SolutionConfigured>True</SolutionConfigured>
+  </Settings>
+</SolutionConfiguration>

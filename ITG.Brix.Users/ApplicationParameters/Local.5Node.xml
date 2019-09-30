@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/BrixEOrderUsers" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="ITG.Brix.Users.API_InstanceCount" Value="1" />
+    <Parameter Name="ITG.Brix.APPINSIGHTS_INSTRUMENTATIONKEY" Value="" />
+    <Parameter Name="ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="DatabaseConnectionString" Value="mongodb://co-ac-eu1-users-dvlp:sWNIXbHq0kNZvTzrlhg26Gi2tQEDcqz0CuEp08Of1VJweKHg5CPIaxbAly2TUI1KVFPljAJ2mAo2v3UZNoXwGg==@co-ac-eu1-users-dvlp.documents.azure.com:10255/?ssl=true" />
+    <Parameter Name="RabbitMQEnabled" Value="false" />
+    <Parameter Name="RabbitMQConnectionString" Value="host=localhost" />
+    <Parameter Name="AzureServiceBusEnabled" Value="true" />
+    <Parameter Name="AzureServiceBusConnectionString" Value="Endpoint=sb://sb-ac-eu1-platobus-dvlp.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=KoThv4McZXuey/kOyoAAnRwHk7h/aoWsxPWSTqaNac0=" />
+  </Parameters>
+</Application>
